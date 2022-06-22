@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LauncherName></LauncherName>
+  <LauncherServerAddress></LauncherServerAddress>
+  <LauncherSteamWebAPI></LauncherSteamWebAPI>
+  <URLServerAPI>http://127.0.0.1:30120/KC_L_S_API/</URLServerAPI>
+  <UpdateApp>https://fujinons.web.app/api/v11.2/update.zip</UpdateApp>
+  <VersionNew>1.0.0</VersionNew>
+  <LauncherTeamSpeakAddress />
+  <LauncherUILauncherURL></LauncherUILauncherURL>
+</DataSettings>

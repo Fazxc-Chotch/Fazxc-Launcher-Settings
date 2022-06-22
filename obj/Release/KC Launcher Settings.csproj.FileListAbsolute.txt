@@ -1,0 +1,82 @@
+C:\Users\FujinoNs\source\repos\KC Launcher Settings\bin\Release\KC Launcher Settings.exe.config
+C:\Users\FujinoNs\source\repos\KC Launcher Settings\bin\Release\KC Launcher Settings.exe
+C:\Users\FujinoNs\source\repos\KC Launcher Settings\bin\Release\KC Launcher Settings.pdb
+C:\Users\FujinoNs\source\repos\KC Launcher Settings\bin\Release\AduSkin.dll
+C:\Users\FujinoNs\source\repos\KC Launcher Settings\bin\Release\FireSharp.dll
+C:\Users\FujinoNs\source\repos\KC Launcher Settings\bin\Release\FireSharp.Serialization.JsonNet.dll
+C:\Users\FujinoNs\source\repos\KC Launcher Settings\bin\Release\Newtonsoft.Json.dll
+C:\Users\FujinoNs\source\repos\KC Launcher Settings\bin\Release\Panuon.UI.Silver.dll
+C:\Users\FujinoNs\source\repos\KC Launcher Settings\bin\Release\RestSharp.dll
+C:\Users\FujinoNs\source\repos\KC Launcher Settings\bin\Release\Newtonsoft.Json.xml
+C:\Users\FujinoNs\source\repos\KC Launcher Settings\bin\Release\RestSharp.xml
+C:\Users\FujinoNs\source\repos\KC Launcher Settings\obj\Release\MainWindow.baml
+C:\Users\FujinoNs\source\repos\KC Launcher Settings\obj\Release\wd_save_settings.baml
+C:\Users\FujinoNs\source\repos\KC Launcher Settings\obj\Release\MainWindow.g.cs
+C:\Users\FujinoNs\source\repos\KC Launcher Settings\obj\Release\wd_save_settings.g.cs
+C:\Users\FujinoNs\source\repos\KC Launcher Settings\obj\Release\App.g.cs
+C:\Users\FujinoNs\source\repos\KC Launcher Settings\obj\Release\KC Launcher Settings_MarkupCompile.cache
+C:\Users\FujinoNs\source\repos\KC Launcher Settings\obj\Release\KC Launcher Settings_MarkupCompile.lref
+C:\Users\FujinoNs\source\repos\KC Launcher Settings\obj\Release\App.baml
+C:\Users\FujinoNs\source\repos\KC Launcher Settings\obj\Release\KC Launcher Settings.g.resources
+C:\Users\FujinoNs\source\repos\KC Launcher Settings\obj\Release\KC_Launcher_Settings.Properties.Resources.resources
+C:\Users\FujinoNs\source\repos\KC Launcher Settings\obj\Release\KC Launcher Settings.csproj.GenerateResource.cache
+C:\Users\FujinoNs\source\repos\KC Launcher Settings\obj\Release\KC Launcher Settings.csproj.CoreCompileInputs.cache
+C:\Users\FujinoNs\source\repos\KC Launcher Settings\obj\Release\KC Launcher Settings.exe
+C:\Users\FujinoNs\source\repos\KC Launcher Settings\obj\Release\KC Launcher Settings.pdb
+C:\Users\FujinoNs\source\repos\KC Launcher Settings\bin\Release\Fujino.Encryption.dll
+C:\Users\FujinoNs\source\repos\KC Launcher Settings\obj\Release\KC Launcher Settings.csproj.AssemblyReference.cache
+C:\KC Launcher V11\KC Launcher Settings\bin\Release\KC Launcher Settings.exe.config
+C:\KC Launcher V11\KC Launcher Settings\bin\Release\KC Launcher Settings.exe
+C:\KC Launcher V11\KC Launcher Settings\bin\Release\KC Launcher Settings.pdb
+C:\KC Launcher V11\KC Launcher Settings\bin\Release\AduSkin.dll
+C:\KC Launcher V11\KC Launcher Settings\bin\Release\FireSharp.dll
+C:\KC Launcher V11\KC Launcher Settings\bin\Release\FireSharp.Serialization.JsonNet.dll
+C:\KC Launcher V11\KC Launcher Settings\bin\Release\Fujino.Encryption.dll
+C:\KC Launcher V11\KC Launcher Settings\bin\Release\Newtonsoft.Json.dll
+C:\KC Launcher V11\KC Launcher Settings\bin\Release\Panuon.UI.Silver.dll
+C:\KC Launcher V11\KC Launcher Settings\bin\Release\RestSharp.dll
+C:\KC Launcher V11\KC Launcher Settings\bin\Release\Newtonsoft.Json.xml
+C:\KC Launcher V11\KC Launcher Settings\bin\Release\RestSharp.xml
+C:\KC Launcher V11\KC Launcher Settings\obj\Release\MainWindow.baml
+C:\KC Launcher V11\KC Launcher Settings\obj\Release\wd_save_settings.baml
+C:\KC Launcher V11\KC Launcher Settings\obj\Release\MainWindow.g.cs
+C:\KC Launcher V11\KC Launcher Settings\obj\Release\wd_save_settings.g.cs
+C:\KC Launcher V11\KC Launcher Settings\obj\Release\App.g.cs
+C:\KC Launcher V11\KC Launcher Settings\obj\Release\KC Launcher Settings_MarkupCompile.cache
+C:\KC Launcher V11\KC Launcher Settings\obj\Release\KC Launcher Settings_MarkupCompile.lref
+C:\KC Launcher V11\KC Launcher Settings\obj\Release\App.baml
+C:\KC Launcher V11\KC Launcher Settings\obj\Release\KC Launcher Settings.g.resources
+C:\KC Launcher V11\KC Launcher Settings\obj\Release\KC_Launcher_Settings.Properties.Resources.resources
+C:\KC Launcher V11\KC Launcher Settings\obj\Release\KC Launcher Settings.csproj.GenerateResource.cache
+C:\KC Launcher V11\KC Launcher Settings\obj\Release\KC Launcher Settings.csproj.CoreCompileInputs.cache
+C:\KC Launcher V11\KC Launcher Settings\obj\Release\KC Launcher Settings.csproj.CopyComplete
+C:\KC Launcher V11\KC Launcher Settings\obj\Release\KC Launcher Settings.exe
+C:\KC Launcher V11\KC Launcher Settings\obj\Release\KC Launcher Settings.pdb
+C:\KC Launcher V12\KC Launcher Settings\bin\Release\KC Launcher Settings.exe.config
+C:\KC Launcher V12\KC Launcher Settings\bin\Release\KC Launcher Settings.exe
+C:\KC Launcher V12\KC Launcher Settings\bin\Release\KC Launcher Settings.pdb
+C:\KC Launcher V12\KC Launcher Settings\bin\Release\AduSkin.dll
+C:\KC Launcher V12\KC Launcher Settings\bin\Release\FireSharp.dll
+C:\KC Launcher V12\KC Launcher Settings\bin\Release\FireSharp.Serialization.JsonNet.dll
+C:\KC Launcher V12\KC Launcher Settings\bin\Release\Fujino.Encryption.dll
+C:\KC Launcher V12\KC Launcher Settings\bin\Release\Newtonsoft.Json.dll
+C:\KC Launcher V12\KC Launcher Settings\bin\Release\Panuon.UI.Silver.dll
+C:\KC Launcher V12\KC Launcher Settings\bin\Release\RestSharp.dll
+C:\KC Launcher V12\KC Launcher Settings\bin\Release\Newtonsoft.Json.xml
+C:\KC Launcher V12\KC Launcher Settings\bin\Release\RestSharp.xml
+C:\KC Launcher V12\KC Launcher Settings\obj\Release\MainWindow.baml
+C:\KC Launcher V12\KC Launcher Settings\obj\Release\wd_save_settings.baml
+C:\KC Launcher V12\KC Launcher Settings\obj\Release\MainWindow.g.cs
+C:\KC Launcher V12\KC Launcher Settings\obj\Release\wd_save_settings.g.cs
+C:\KC Launcher V12\KC Launcher Settings\obj\Release\App.g.cs
+C:\KC Launcher V12\KC Launcher Settings\obj\Release\KC Launcher Settings_MarkupCompile.cache
+C:\KC Launcher V12\KC Launcher Settings\obj\Release\KC Launcher Settings_MarkupCompile.lref
+C:\KC Launcher V12\KC Launcher Settings\obj\Release\App.baml
+C:\KC Launcher V12\KC Launcher Settings\obj\Release\KC Launcher Settings.g.resources
+C:\KC Launcher V12\KC Launcher Settings\obj\Release\KC_Launcher_Settings.Properties.Resources.resources
+C:\KC Launcher V12\KC Launcher Settings\obj\Release\KC Launcher Settings.csproj.GenerateResource.cache
+C:\KC Launcher V12\KC Launcher Settings\obj\Release\KC Launcher Settings.csproj.CoreCompileInputs.cache
+C:\KC Launcher V12\KC Launcher Settings\obj\Release\KC Launcher Settings.csproj.CopyComplete
+C:\KC Launcher V12\KC Launcher Settings\obj\Release\KC Launcher Settings.exe
+C:\KC Launcher V12\KC Launcher Settings\obj\Release\KC Launcher Settings.pdb
+C:\KC Launcher V12\KC Launcher Settings\obj\Release\KC Launcher Settings.csproj.AssemblyReference.cache

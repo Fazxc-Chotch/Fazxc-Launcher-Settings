@@ -1,0 +1,193 @@
+﻿<Window
+    x:Class="KC_Launcher_Settings.wd_save_settings"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:pu="clr-namespace:Panuon.UI.Silver;assembly=Panuon.UI.Silver"
+    xmlns:ui="http://schemas.modernwpf.com/2019"
+    Title="Save Settings"
+    Width="682"
+    Height="370"
+    AllowsTransparency="True"
+    Background="{x:Null}"
+    Foreground="{x:Null}"
+    MouseDown="Window_MouseDown"
+    ResizeMode="NoResize"
+    WindowStartupLocation="CenterScreen"
+    WindowStyle="None"
+    mc:Ignorable="d">
+    <Border
+        x:Name="br_main"
+        Margin="22,20,21,20"
+        CornerRadius="10">
+        <Border.Background>
+            <ImageBrush
+                ImageSource="bg app 2.png"
+                Opacity="1"
+                Stretch="UniformToFill" />
+        </Border.Background>
+        <Border.BitmapEffect>
+            <DropShadowBitmapEffect
+                Direction="100"
+                Opacity="0.7"
+                ShadowDepth="0"
+                Softness="1" />
+        </Border.BitmapEffect>
+        <Grid>
+            <Label
+                Margin="45,10,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Content="Launcher Settings"
+                FontFamily="/#Arial Rounded MT Bold"
+                FontSize="18"
+                Foreground="White">
+                <Label.BitmapEffect>
+                    <DropShadowBitmapEffect
+                        Direction="200"
+                        Opacity="0.685"
+                        Softness="1" />
+                </Label.BitmapEffect>
+            </Label>
+            <Image
+                Width="35"
+                Height="31"
+                Margin="10,10,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Cursor="Arrow"
+                Source="New-KC-Logo-200x200.ico" />
+            <Label
+                x:Name="lbl_exitapp"
+                Width="31"
+                Height="30"
+                Margin="598,10,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Center"
+                Content="&#xF00D;"
+                Cursor="Hand"
+                FontFamily="/icon_font/#la-solid-900"
+                FontSize="20"
+                FontWeight="Bold"
+                Foreground="White"
+                MouseDown="lbl_exitapp_MouseDown" />
+
+
+            <Label
+                Width="619"
+                Margin="10,41,10,0"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Top"
+                HorizontalContentAlignment="Center"
+                Content="* Firebase Login Realtime Database *"
+                FontFamily="/#Arial Rounded MT Bold"
+                FontSize="18"
+                Foreground="White" />
+            <Label
+                Width="564"
+                Margin="36,65,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Content="ลิ้งค์ Realtime Database | URL Realtime Database"
+                FontFamily="/#Prachason Neue Mon Demo Thin"
+                FontSize="18"
+                Foreground="White" />
+            <Label
+                Width="564"
+                Margin="36,122,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Content="คีย์ Database Secrets | Key Database Secrets"
+                FontFamily="/#Prachason Neue Mon Demo Thin"
+                FontSize="18"
+                Foreground="White" />
+            <Button
+                x:Name="btn_login_rdb"
+                Width="271"
+                Height="29"
+                Margin="38,263,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                pu:ButtonHelper.CornerRadius="5"
+                pu:ButtonHelper.HoverBrush="#3F3F3F"
+                Background="#66FFFFFF"
+                Click="btn_login_rdb_Click"
+                Content="Login and Deploy"
+                Cursor="Hand"
+                Foreground="White" />
+            <Button
+                x:Name="btn_export"
+                Width="271"
+                Height="29"
+                Margin="329,263,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                pu:ButtonHelper.CornerRadius="5"
+                pu:ButtonHelper.HoverBrush="#3F3F3F"
+                Background="#66FFFFFF"
+                Click="btn_export_Click"
+                Content="Export to Json file"
+                Cursor="Hand"
+                Foreground="White" />
+            <TextBox
+                x:Name="txt_rtdb_url"
+                Width="561"
+                Height="29"
+                Margin="39,94,39,207"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                pu:TextBoxHelper.CornerRadius="4"
+                pu:TextBoxHelper.Watermark="ลิ้งค์ Realtime Database"
+                Background="#D3FFFFFF"
+                BorderBrush="{x:Null}"
+                FontFamily="Consolas"
+                FontSize="14"
+                Foreground="Black"
+                TextWrapping="Wrap" />
+            <TextBox
+                x:Name="txt_rtdb_key"
+                Width="561"
+                Height="29"
+                Margin="39,151,39,150"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                pu:TextBoxHelper.CornerRadius="4"
+                pu:TextBoxHelper.Watermark="คีย์ Database Secrets"
+                Background="#D3FFFFFF"
+                BorderBrush="{x:Null}"
+                FontFamily="Consolas"
+                FontSize="14"
+                Foreground="Black"
+                TextWrapping="Wrap" />
+            <Label
+                Width="564"
+                Margin="36,180,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Content="รหัสผ่านสำหรับเข้ารหัสไฟล์ _kc_packages.json | Password for encrypting..."
+                FontFamily="/#Prachason Neue Mon Demo Thin"
+                FontSize="18"
+                Foreground="White"
+                ToolTip="รหัสผ่านสำหรับเข้ารหัสไฟล์ _kc_packages.json | Password for encrypting files _kc_packages.json" />
+            <TextBox
+                x:Name="txt_passwordencryption_package"
+                Width="561"
+                Height="29"
+                Margin="39,209,39,92"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                pu:TextBoxHelper.CornerRadius="4"
+                pu:TextBoxHelper.Watermark="รหัสผ่านสำหรับเข้ารหัสไฟล์ kc_packages.json สำหรับ Export to Json file (ไม่บังคับ)"
+                Background="#D3FFFFFF"
+                BorderBrush="{x:Null}"
+                FontFamily="Consolas"
+                FontSize="14"
+                Foreground="Black"
+                TextWrapping="Wrap" />
+
+        </Grid>
+    </Border>
+</Window>

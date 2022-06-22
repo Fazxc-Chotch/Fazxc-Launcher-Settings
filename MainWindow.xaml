@@ -1,0 +1,359 @@
+﻿<Window
+    x:Class="KC_Launcher_Settings.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:pu="clr-namespace:Panuon.UI.Silver;assembly=Panuon.UI.Silver"
+    xmlns:ui="http://schemas.modernwpf.com/2019"
+    Title="Launcher Settings for v11"
+    Width="902"
+    Height="680"
+    AllowsTransparency="True"
+    Background="{x:Null}"
+    Foreground="{x:Null}"
+    MouseDown="Window_MouseDown"
+    ResizeMode="NoResize"
+    WindowStartupLocation="CenterScreen"
+    WindowStyle="None"
+    mc:Ignorable="d">
+    <Border
+        x:Name="br_main"
+        Margin="22,20,21,20"
+        CornerRadius="10">
+        <Border.Background>
+            <ImageBrush
+                ImageSource="bg app.png"
+                Opacity="0.85"
+                Stretch="UniformToFill" />
+        </Border.Background>
+        <Border.BitmapEffect>
+            <DropShadowBitmapEffect
+                Direction="100"
+                Opacity="0.7"
+                ShadowDepth="0"
+                Softness="1" />
+        </Border.BitmapEffect>
+        <Grid>
+            <Label
+                Margin="45,10,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Content="Launcher Settings for v11"
+                FontFamily="/#Arial Rounded MT Bold"
+                FontSize="18"
+                Foreground="White">
+                <Label.BitmapEffect>
+                    <DropShadowBitmapEffect
+                        Direction="200"
+                        Opacity="0.685"
+                        Softness="1" />
+                </Label.BitmapEffect>
+            </Label>
+            <Image
+                Width="35"
+                Height="31"
+                Margin="10,10,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Cursor="Arrow"
+                Source="New-KC-Logo-200x200.ico" />
+            <Label
+                x:Name="lbl_exitapp"
+                Width="31"
+                Height="30"
+                Margin="818,10,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Center"
+                Content="&#xF00D;"
+                Cursor="Hand"
+                FontFamily="/icon_font/#la-solid-900"
+                FontSize="20"
+                FontWeight="Bold"
+                Foreground="White"
+                MouseDown="lbl_exitapp_MouseDown" />
+            <Label
+                Width="840"
+                Margin="9,45,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                HorizontalContentAlignment="Center"
+                Content="* KC Launcher AutoUpdate *"
+                FontFamily="/#Arial Rounded MT Bold"
+                FontSize="20"
+                Foreground="White"
+                RenderTransformOrigin="0.501,0.19" />
+            <Label
+                Width="779"
+                Margin="35,67,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Content="ลิงค์ดาวน์โหลดไฟล์อัพเดต | Link download file update"
+                FontFamily="/#Prachason Neue Mon Demo Thin"
+                FontSize="18"
+                Foreground="White" />
+            <Label
+                Width="779"
+                Margin="35,125,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Content="เวอร์ชั่น Launcher ล่าสุด | Latest launcher version"
+                FontFamily="/#Prachason Neue Mon Demo Thin"
+                FontSize="18"
+                Foreground="White" />
+            <Label
+                Width="839"
+                Margin="10,183,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                HorizontalContentAlignment="Center"
+                Content="* KC Launcher Settings *"
+                FontFamily="/#Arial Rounded MT Bold"
+                FontSize="20"
+                Foreground="White"
+                RenderTransformOrigin="0.501,0.19" />
+            <Label
+                Width="779"
+                Margin="35,201,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Content="ชื่อ Launcher สำหรับแสดง | Launcher name for show"
+                FontFamily="/#Prachason Neue Mon Demo Thin"
+                FontSize="18"
+                Foreground="White" />
+            <Label
+                Width="779"
+                Margin="36,261,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Content="ที่อยู่ของเซิร์ฟเวอร์สำหรับเชื่อมต่อ FiveM | Address server for connect FiveM"
+                FontFamily="/#Prachason Neue Mon Demo Thin"
+                FontSize="18"
+                Foreground="White" />
+            <Label
+                Width="779"
+                Margin="36,378,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Content="คีย์ Steam Web API | Key Steam Web API"
+                FontFamily="/#Prachason Neue Mon Demo Thin"
+                FontSize="18"
+                Foreground="White" />
+            <Button
+                x:Name="btn_save_settings"
+                Width="102"
+                Height="29"
+                Margin="717,584,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                pu:ButtonHelper.CornerRadius="5"
+                pu:ButtonHelper.HoverBrush="#3F3F3F"
+                Background="#7FFFFFFF"
+                Click="btn_save_settings_Click"
+                Content="Save"
+                Cursor="Hand"
+                Foreground="White" />
+            <Label
+                Width="779"
+                Margin="36,497,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Content="_ลิ้งค์เซิร์ฟเวอร์ API | Link server API ( http://192.168.1.245:30120/KC_L_S_API/ )"
+                FontFamily="/#Prachason Neue Mon Demo Thin"
+                FontSize="18"
+                Foreground="White" />
+            <Button
+                x:Name="btn_test_server_api"
+                Width="102"
+                Height="29"
+                Margin="717,526,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                pu:ButtonHelper.CornerRadius="5"
+                pu:ButtonHelper.HoverBrush="#3F3F3F"
+                Background="#7FFFFFFF"
+                Click="btn_test_server_api_Click"
+                Content="Test"
+                Cursor="Hand"
+                Foreground="White" />
+            <Label
+                x:Name="lbl_datetime_edit"
+                Width="517"
+                Height="31"
+                Margin="296,10,0,0"
+                Padding="5,4,5,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                HorizontalContentAlignment="Right"
+                FontFamily="/#Prachason Neue Mon Demo Thin"
+                FontSize="16"
+                FontWeight="Bold"
+                Foreground="White" />
+            <Label
+                Width="779"
+                Margin="37,318,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Content="ที่อยู่ของเซิร์ฟเวอร์สำหรับเชื่อมต่อ TeamSpeak | Address server for connect TeamSpeak"
+                FontFamily="/#Prachason Neue Mon Demo Thin"
+                FontSize="18"
+                Foreground="White" />
+            <Label
+                Width="779"
+                Margin="36,555,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Content="ลิ้งค์ UI Launcher | Link UI Launcher"
+                FontFamily="/#Prachason Neue Mon Demo Thin"
+                FontSize="18"
+                Foreground="White" />
+            <TextBox
+                x:Name="txt_launcher_update_url"
+                Width="779"
+                Height="29"
+                Margin="40,96,40,515"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                pu:TextBoxHelper.CornerRadius="4"
+                pu:TextBoxHelper.Watermark="ลิงค์ดาวน์โหลดไฟล์อัพเดต"
+                Background="#E5FFFFFF"
+                BorderBrush="{x:Null}"
+                FontFamily="Consolas"
+                FontSize="16"
+                Foreground="Black"
+                TextWrapping="Wrap" />
+            <TextBox
+                x:Name="txt_launcher_ver"
+                Width="778"
+                Height="29"
+                Margin="40,154,41,457"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                pu:TextBoxHelper.CornerRadius="4"
+                pu:TextBoxHelper.Watermark="เวอร์ชั่น Launcher ล่าสุด"
+                Background="#E5FFFFFF"
+                BorderBrush="{x:Null}"
+                FontFamily="Consolas"
+                FontSize="16"
+                Foreground="Black"
+                TextWrapping="Wrap" />
+            <TextBox
+                x:Name="txt_launcher_name"
+                Width="779"
+                Height="29"
+                Margin="40,230,40,381"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                pu:TextBoxHelper.CornerRadius="4"
+                pu:TextBoxHelper.Watermark="ชื่อ Launcher สำหรับแสดง"
+                Background="#D3FFFFFF"
+                BorderBrush="{x:Null}"
+                FontFamily="Consolas"
+                FontSize="16"
+                Foreground="Black"
+                TextWrapping="Wrap" />
+            <TextBox
+                x:Name="txt_server_address"
+                Width="779"
+                Height="29"
+                Margin="40,290,40,321"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                pu:TextBoxHelper.CornerRadius="4"
+                pu:TextBoxHelper.Watermark="ที่อยู่ของเซิร์ฟเวอร์สำหรับเชื่อมต่อ FiveM"
+                Background="#D3FFFFFF"
+                BorderBrush="{x:Null}"
+                FontFamily="Consolas"
+                FontSize="16"
+                Foreground="Black"
+                TextWrapping="Wrap" />
+            <TextBox
+                x:Name="txt_steam_api_key"
+                Width="779"
+                Height="29"
+                Margin="40,408,40,203"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                pu:TextBoxHelper.CornerRadius="4"
+                pu:TextBoxHelper.Watermark="คีย์ Steam Web API"
+                Background="#D3FFFFFF"
+                BorderBrush="{x:Null}"
+                FontFamily="Consolas"
+                FontSize="16"
+                Foreground="Black"
+                TextWrapping="Wrap" />
+            <TextBox
+                x:Name="txt_server_api"
+                Width="665"
+                Height="29"
+                Margin="40,526,154,85"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                pu:TextBoxHelper.CornerRadius="4"
+                pu:TextBoxHelper.Watermark="ลิ้งค์เซิร์ฟเวอร์ API"
+                Background="#D3FFFFFF"
+                BorderBrush="{x:Null}"
+                FontFamily="Consolas"
+                FontSize="16"
+                Foreground="Black"
+                TextWrapping="Wrap" />
+            <TextBox
+                x:Name="txt_server_address_teamspeak"
+                Width="779"
+                Height="29"
+                Margin="40,348,40,263"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                pu:TextBoxHelper.CornerRadius="4"
+                pu:TextBoxHelper.Watermark="ที่อยู่ของเซิร์ฟเวอร์สำหรับเชื่อมต่อ TeamSpeak (ปล่อยว่างหากไม่ใช้งาน)"
+                Background="#D3FFFFFF"
+                BorderBrush="{x:Null}"
+                FontFamily="Consolas"
+                FontSize="16"
+                Foreground="Black"
+                TextWrapping="Wrap" />
+            <TextBox
+                x:Name="txt_launcher_uilauncher"
+                Width="665"
+                Height="29"
+                Margin="40,584,154,27"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                pu:TextBoxHelper.CornerRadius="4"
+                pu:TextBoxHelper.Watermark="ลิ้งค์ UI Launcher"
+                Background="#D3FFFFFF"
+                BorderBrush="{x:Null}"
+                FontFamily="Consolas"
+                FontSize="16"
+                Foreground="Black"
+                TextWrapping="Wrap" />
+            <Label
+                Width="779"
+                Margin="40,437,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Content="_คีย์ KC_L_S_API API | Key KC_L_S_API API"
+                FontFamily="/#Prachason Neue Mon Demo Thin"
+                FontSize="18"
+                Foreground="White" />
+            <TextBox
+                x:Name="txt_kclsapi_key"
+                Width="779"
+                Height="29"
+                Margin="40,467,40,144"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                pu:TextBoxHelper.CornerRadius="4"
+                pu:TextBoxHelper.Watermark="คีย์ KC_L_S_API API"
+                Background="#D3FFFFFF"
+                BorderBrush="{x:Null}"
+                FontFamily="Consolas"
+                FontSize="16"
+                Foreground="Black"
+                TextWrapping="Wrap" />
+
+        </Grid>
+    </Border>
+</Window>
